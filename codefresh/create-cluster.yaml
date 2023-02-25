@@ -13,7 +13,7 @@ metadata:
   name: codefresh
 rules:
   - apiGroups: [ "*"]
-    resources: ["*"]
+    resources: ["pod"]
     verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
 
 ---
