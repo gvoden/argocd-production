@@ -59,8 +59,6 @@ rules:
   resources:
   - secrets
   verbs:
-  - get
-  - create
 - apiGroups:
   - ""
   resources:
